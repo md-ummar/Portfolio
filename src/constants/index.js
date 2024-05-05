@@ -25,7 +25,7 @@ export const PROJECTS = [
       "This is a simple Todo app built with React, Context API, Redux, and Tailwind CSS. It allows users to add, remove, and mark tasks as completed. The app uses local storage to persist tasks between sessions.",
 
     technologies: ["HTML", "TailwindCSS", "React", "Redux", "Context API"],
-    redirectUrl: "https://todo-chi-weld-73.vercel.app/",
+    redirectUrl: "https://todo-updater.vercel.app/",
   },
   {
     title: "Currency Converter",
@@ -33,7 +33,7 @@ export const PROJECTS = [
     description:
       "The currency converter is a web application that allows users to convert an amount from one currency to another. Users can select two currencies, Currency 1 and Currency 2, and enter an amount to convert.The currency values are fetched from an API call, ensuring that the conversion rates are up-to-date and accurate. ",
     technologies: ["HTML", "CSS", "JavaScript", "React", "API"],
-    redirectUrl: "https://currency-converter-iota-plum.vercel.app/",
+    redirectUrl: "https://currency-calculator-app.vercel.app",
   },
   {
     title: "Portfolio Website",
