@@ -41,7 +41,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    redirectUrl: "https://portfolio-six-rouge-53.vercel.app/",
+    redirectUrl: "https://md-ummar-portfolio.vercel.app/",
   },
   {
     title: "Blogging Platform",
