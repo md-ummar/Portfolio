@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import todo from "../assets/projects/todo.png";
+import converter from "../assets/projects/converter.png";
+import portfolio from "../assets/projects/portfolio.png";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -20,28 +20,28 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Todo Application",
-    image: project1,
+    image: todo,
     description:
       "This is a simple Todo app built with React, Context API, Redux, and Tailwind CSS. It allows users to add, remove, and mark tasks as completed. The app uses local storage to persist tasks between sessions.",
 
     technologies: ["HTML", "TailwindCSS", "React", "Redux", "Context API"],
-    redirectUrl: "https://www.google.com",
+    redirectUrl: "https://todo-chi-weld-73.vercel.app/",
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Currency Converter",
+    image: converter,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    redirectUrl: "https://www.google.com",
+      "The currency converter is a web application that allows users to convert an amount from one currency to another. Users can select two currencies, Currency 1 and Currency 2, and enter an amount to convert.The currency values are fetched from an API call, ensuring that the conversion rates are up-to-date and accurate. ",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "API"],
+    redirectUrl: "https://currency-converter-iota-plum.vercel.app/",
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: portfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    redirectUrl: "https://www.google.com",
+    redirectUrl: "https://portfolio-six-rouge-53.vercel.app/",
   },
   {
     title: "Blogging Platform",
