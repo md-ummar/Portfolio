@@ -19,11 +19,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Todo Application",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "This is a simple Todo app built with React, Context API, Redux, and Tailwind CSS. It allows users to add, remove, and mark tasks as completed. The app uses local storage to persist tasks between sessions.",
+
+    technologies: ["HTML", "TailwindCSS", "React", "Redux", "Context API"],
     redirectUrl: "https://www.google.com",
   },
   {
