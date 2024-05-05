@@ -25,9 +25,9 @@ function Projects() {
               <img
                 src={projects.image}
                 alt={projects.title}
-                width={150}
-                height={150}
-                className="mb-6 rounded"
+                width={250}
+                height={250}
+                className="mb-6 rounded "
               />
             </motion.div>
             <motion.div

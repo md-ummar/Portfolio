@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/logo.jpg"; //import resume here
+import DownloadCV from "../assets/MD-UMMAR-resume.pdf"; //import resume here
 import { delay, motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import Lottie from "lottie-react";
@@ -57,7 +57,7 @@ function Hero() {
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
             >
-              <a href={profilePic} download={"image.png"}>
+              <a href={DownloadCV} download={"MdUmmarCV.pdf"}>
                 <button
                   type="button"
                   className="px-2 border-neutral-800  bg-slate-800 inline-block py-1 w-full sm:w-fit rounded-full border hover:bg-gradient-to-r hover:from-pink-300 hover:via-sate-500 hover:to-purple-500 text-white mt-3"
